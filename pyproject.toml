@@ -1,0 +1,14 @@
+[project]
+name = "microservice"
+version = "0.0.1"
+authors = [
+  { name="Jack Sprott", email="jack.sprott@stud-mail.uni-wuerzburg.de" },
+]
+description = "A package providing a microservice server and client"
+readme = "readme.txt"
+requires-python = ">=3.9"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+

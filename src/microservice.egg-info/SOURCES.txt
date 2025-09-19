@@ -1,0 +1,8 @@
+pyproject.toml
+readme.txt
+src/microservice/microservice_client.py
+src/microservice/microservice_server.py
+src/microservice.egg-info/PKG-INFO
+src/microservice.egg-info/SOURCES.txt
+src/microservice.egg-info/dependency_links.txt
+src/microservice.egg-info/top_level.txt

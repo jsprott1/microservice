@@ -1,6 +1,6 @@
 [project]
 name = "microservice"
-version = "0.0.1"
+version = "0.0.2"
 authors = [
   { name="Jack Sprott", email="jack.sprott@stud-mail.uni-wuerzburg.de" },
 ]

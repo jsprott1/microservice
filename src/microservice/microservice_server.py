@@ -2,7 +2,7 @@ from flask import Flask, request, abort
 import threading
 
 class MicroserviceServer:
-    def __init__(self, target, restrict_network_partner, allowed_network_partners, route="/", flask_listen_ip="0.0.0.0", server_port=5000):
+    def __init__(self, target, restrict_network_partner=False, allowed_network_partners=None, route="/", flask_listen_ip="0.0.0.0", server_port=5000):
         self.target = target
         self.flask_app = Flask(__name__)
         @self.flask_app.route(route, methods=['POST'])
